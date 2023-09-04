@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/logo.png" type="image/png">
+    <title>Personal Portfolio Website</title>
+    <!-- IconScout CDN -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- Google Fonts (Poppins, Outfit) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800;900&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- Animate On Scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="dark">
+    <!-- START NAV SECTION -->
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html" class="nav__logo">
+                <img src="./assets/logo.png" alt="Navbar Logo">
+            </a>
+            <ul class="nav__menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+            <div class="nav__buttons">
+                <button class="nav__theme-btn">
+                    <i class="uil uil-moon"></i>
+                </button>
+                <button class="nav__toggle-open">
+                    <i class="uil uil-bars"></i>
+                </button>
+                <button class="nav__toggle-close">
+                    <i class="uil uil-multiply"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!-- END NAV SECTION -->
+
+    <!-- START HEADER SECTION -->
+    <header>
+        <div class="container header__container">
+            <article class="header__image" data-aos="fade-up" data-aos-delay="700">
+                <div><img src="./assets/header.jpg" alt="Header"></div>
+            </article>
+            <article class="header__content" data-aos="fade-in">
+                <h4>Hi, I'm <span>Ahmad Al Araby</span>. And I'll</h4>
+                <h1>Get your bussiness<br>online the right way</h1>
+                <p>Are you looking for a professinal developer to put your business online? You've come to the
+                    right place! I've helped hundreds of business owners bring their ideas to life.
+                    Hire me today!
+                </p>
+                <div class="header__cta">
+                    <a href="#contact" class="btn primary">Hire me</a>
+                    <a href="#projects" class="btn">Portfolio</a>
+                </div>
+            </article>
+            <ul class="header__socials">
+                <li><a href="https://twitter.com/" target="_blank"><i class="uil uil-twitter-alt"></i></a></li>
+                <li><a href="https://github.com/" target="_blank"><i class="uil uil-github-alt"></i></a></li>
+                <li><a href="https://linkedin.com/" target="_blank"><i class="uil uil-linkedin-alt"></i></a></li>
+                <li><a href="https://dribbble.com/" target="_blank"><i class="uil uil-dribbble"></i></a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- END HEADER SECTION -->
+
+
+    <!-- START ABOUT SECTION -->
+    <section class="about" id="about">
+        <div class="container about__container">
+            <div class="about__image">
+                <img src="./assets/about.jpg" alt="About Image">
+            </div>
+            <div class="about__details" data-aos="fade-in" data-aos-delay="300">
+                <h1>About me</h1>
+                <div class="about__cards">
+                    <article class="about__card">
+                        <i class="uil uil-award-alt"></i>
+                        <h4>Experience</h4>
+                        <small>8+ years</small>
+                    </article>
+                    <article class="about__card">
+                        <i class="uil uil-swatchbook"></i>
+                        <h4>Projects</h4>
+                        <small>220+ completed</small>
+                    </article>
+                    <article class="about__card">
+                        <i class="uil uil-users-alt"></i>
+                        <h4>Clients</h4>
+                        <small>100+ worldwide</small>
+                    </article>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus vero iure, labore nemo inventore
+                    sunt modi consectetur delectus asperiores officiis quisquam dolorem, cum consequatur blanditiis
+                    numquam veritatis eum expedita vitae!
+                </p>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quidem nam voluptatum quaerat
+                    praesentium et quo non ad soluta architecto doloremque eum,
+                    nesciunt dolore harum dolorem alias aspernatur ea saepe. Deleniti iure eligendi vero maxime
+                    ipsam repellat ullam excepturi. Nisi voluptate animi vero, eveniet consectetur doloremque cumque
+                    repudiandae corrupti aperiam id quidem neque.
+                </p>
+                <a href="./assets/resume.pdf" class="btn primary" download target="_blank">
+                    <i class="uil uil-download-alt"></i>Download CV
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- END ABOUT SECTION -->
+
+
+    <!-- START SERVICES SECTION -->
+    <section class="services" id="services">
+        <h1>Services</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="container services__container">
+            <ul class="services__left">
+                <li class="service__item frontend active">
+                    <span><i class="uil uil-desktop"></i></span>
+                    <div>
+                        <h3>Frontend</h3>
+                        <p>14 Projects</p>
+                    </div>
+                </li>
+                <li class="service__item backend">
+                    <span><i class="uil uil-server"></i></span>
+                    <div>
+                        <h3>Backend</h3>
+                        <p>11 Projects</p>
+                    </div>
+                </li>
+                <li class="service__item fullstack">
+                    <span><i class="uil uil-apps"></i></span>
+                    <div>
+                        <h3>Fullstack</h3>
+                        <p>21 Projects</p>
+                    </div>
+                </li>
+            </ul>
+            <article class="services__right" data-aos="fade-in" data-aos-delay="200">
+
+            </article>
+        </div>
+    </section>
+    <!-- END SERVICES SECTION -->
+
+
+    <!-- START PROJECTS SECTION -->
+    <section class="projects" id="projects">
+        <h1>Recent Projects</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta esse nulla ullam quod cum quae.</p>
+        <ul class="projects__categories">
+            <li class="active" data-filter="*">All</li>
+            <li data-filter=".frontend">Frontend</li>
+            <li data-filter=".backend">Backend</li>
+            <li data-filter=".fullstack">Fullstack</li>
+        </ul>
+
+        <div class="container projects__container" data-aos="fade-in">
+            <article class="project mix fullstack" data-order="1">
+                <div class="project__image">
+                    <img src="./assets/project1.jpg" alt="Project Image One">
+                </div>
+                <h3>Project One Title (Fullstack)</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id animi omnis dolores, quisquam quos
+                    dolorum quaerat rem. Laboriosam impedit autem ipsum earum explicabo laborum, ab ea placeat
+                    perferendis qui similique.</p>
+                <div class="project__cta">
+                    <a href="/" class="btn sm primary" target="_blank">Demo</a>
+                    <a href="/" class="btn sm" target="_blank">Github</a>
+                </div>
+            </article>
+
+            <article class="project mix frontend" data-order="2">
+                <div class="project__image">
+                    <img src="./assets/project2.jpg" alt="Project Image Two">
+                </div>
+                <h3>Project Two Title (Frontend)</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id animi omnis dolores, quisquam quos
+                    dolorum quaerat rem. Laboriosam impedit autem ipsum earum explicabo laborum, ab ea placeat
+                    perferendis qui similique.</p>
+                <div class="project__cta">
+                    <a href="/" class="btn sm primary" target="_blank">Demo</a>
+                    <a href="/" class="btn sm" target="_blank">Github</a>
+                </div>
+            </article>
+
+            <article class="project mix backend" data-order="3">
+                <div class="project__image">
+                    <img src="./assets/project3.jpg" alt="Project Image One">
+                </div>
+                <h3>Project Three Title (Backend)</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id animi omnis dolores, quisquam quos
+                    dolorum quaerat rem. Laboriosam impedit autem ipsum earum explicabo laborum, ab ea placeat
+                    perferendis qui similique.</p>
+                <div class="project__cta">
+                    <a href="/" class="btn sm primary" target="_blank">Demo</a>
+                    <a href="/" class="btn sm" target="_blank">Github</a>
+                </div>
+            </article>
+
+            <article class="project mix fullstack" data-order="4">
+                <div class="project__image">
+                    <img src="./assets/project4.jpg" alt="Project Image One">
+                </div>
+                <h3>Project Four Title (Fullstack)</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id animi omnis dolores, quisquam quos
+                    dolorum quaerat rem. Laboriosam impedit autem ipsum earum explicabo laborum, ab ea placeat
+                    perferendis qui similique.</p>
+                <div class="project__cta">
+                    <a href="/" class="btn sm primary" target="_blank">Demo</a>
+                    <a href="/" class="btn sm" target="_blank">Github</a>
+                </div>
+            </article>
+
+            <article class="project mix frontend" data-order="5">
+                <div class="project__image">
+                    <img src="./assets/project5.jpg" alt="Project Image One">
+                </div>
+                <h3>Project Five Title (Frontend)</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id animi omnis dolores, quisquam quos
+                    dolorum quaerat rem. Laboriosam impedit autem ipsum earum explicabo laborum, ab ea placeat
+                    perferendis qui similique.</p>
+                <div class="project__cta">
+                    <a href="/" class="btn sm primary" target="_blank">Demo</a>
+                    <a href="/" class="btn sm" target="_blank">Github</a>
+                </div>
+            </article>
+
+            <article class="project mix backend" data-order="6">
+                <div class="project__image">
+                    <img src="./assets/project6.jpg" alt="Project Image One">
+                </div>
+                <h3>Project Six Title (Backend)</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id animi omnis dolores, quisquam quos
+                    dolorum quaerat rem. Laboriosam impedit autem ipsum earum explicabo laborum, ab ea placeat
+                    perferendis qui similique.</p>
+                <div class="project__cta">
+                    <a href="/" class="btn sm primary" target="_blank">Demo</a>
+                    <a href="/" class="btn sm" target="_blank">Github</a>
+                </div>
+            </article>
+
+            <article class="project mix fullstack" data-order="7">
+                <div class="project__image">
+                    <img src="./assets/project7.jpg" alt="Project Image One">
+                </div>
+                <h3>Project Seven Title (Fullstack)</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id animi omnis dolores, quisquam quos
+                    dolorum quaerat rem. Laboriosam impedit autem ipsum earum explicabo laborum, ab ea placeat
+                    perferendis qui similique.</p>
+                <div class="project__cta">
+                    <a href="/" class="btn sm primary" target="_blank">Demo</a>
+                    <a href="/" class="btn sm" target="_blank">Github</a>
+                </div>
+            </article>
+
+            <article class="project mix frontend" data-order="8">
+                <div class="project__image">
+                    <img src="./assets/project8.jpg" alt="Project Image One">
+                </div>
+                <h3>Project Eight Title (Frontend)</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id animi omnis dolores, quisquam quos
+                    dolorum quaerat rem. Laboriosam impedit autem ipsum earum explicabo laborum, ab ea placeat
+                    perferendis qui similique.</p>
+                <div class="project__cta">
+                    <a href="/" class="btn sm primary" target="_blank">Demo</a>
+                    <a href="/" class="btn sm" target="_blank">Github</a>
+                </div>
+            </article>
+
+            <article class="project mix backend" data-order="9">
+                <div class="project__image">
+                    <img src="./assets/project9.jpg" alt="Project Image One">
+                </div>
+                <h3>Project Nine Title (Backend)</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id animi omnis dolores, quisquam quos
+                    dolorum quaerat rem. Laboriosam impedit autem ipsum earum explicabo laborum, ab ea placeat
+                    perferendis qui similique.</p>
+                <div class="project__cta">
+                    <a href="/" class="btn sm primary" target="_blank">Demo</a>
+                    <a href="/" class="btn sm" target="_blank">Github</a>
+                </div>
+            </article>
+        </div>
+    </section>
+    <!-- END PROJECTS SECTION -->
+
+
+    <!-- START TESTIMONIALS SECTION -->
+    <section class="swiper">
+        <h1>What my clients say</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est laboriosam accusamus autem.</p>
+        <div class="swiper-wrapper">
+            <figure class="swiper-slide">
+                <figcaption>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sit ad dolorum molestias recusandae
+                    neque voluptas provident temporibus, eos tempore, accusamus eaque?
+                </figcaption>
+                <div class="swiper__client">
+                    <div class="swiper__client-avatar">
+                        <img src="./assets/avatar1.jpg" alt="Client 1">
+                    </div>
+                    <div class="swiper__client-details">
+                        <h5>Nana Ama McBrown</h5>
+                        <small>Actress</small>
+                    </div>
+                </div>
+
+            </figure>
+
+            <figure class="swiper-slide">
+                <figcaption>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sit ad dolorum molestias recusandae
+                    neque voluptas provident temporibus, eos tempore, accusamus eaque?
+                </figcaption>
+                <div class="swiper__client">
+                    <div class="swiper__client-avatar">
+                        <img src="./assets/avatar2.jpg" alt="Client 3">
+                    </div>
+                    <div class="swiper__client-details">
+                        <h5>Jojo Anit</h5>
+                        <small>Actress</small>
+                    </div>
+                </div>
+            </figure>
+
+            <figure class="swiper-slide">
+                <figcaption>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sit ad dolorum molestias recusandae
+                    neque voluptas provident temporibus, eos tempore, accusamus eaque?
+                </figcaption>
+                <div class="swiper__client">
+                    <div class="swiper__client-avatar">
+                        <img src="./assets/avatar3.jpg" alt="Client 3">
+                    </div>
+                    <div class="swiper__client-details">
+                        <h5>Uouo Tyi</h5>
+                        <small>Actress</small>
+                    </div>
+                </div>
+
+            </figure>
+
+            <figure class="swiper-slide">
+                <figcaption>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sit ad dolorum molestias recusandae
+                    neque voluptas provident temporibus, eos tempore, accusamus eaque?
+                </figcaption>
+                <div class="swiper__client">
+                    <div class="swiper__client-avatar">
+                        <img src="./assets/avatar4.jpg" alt="Client 4">
+                    </div>
+                    <div class="swiper__client-details">
+                        <h5>Willy Vivi</h5>
+                        <small>Actress</small>
+                    </div>
+                </div>
+
+            </figure>
+
+            <figure class="swiper-slide">
+                <figcaption>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sit ad dolorum molestias recusandae
+                    neque voluptas provident temporibus, eos tempore, accusamus eaque?
+                </figcaption>
+                <div class="swiper__client">
+                    <div class="swiper__client-avatar">
+                        <img src="./assets/avatar5.jpg" alt="Client 5">
+                    </div>
+                    <div class="swiper__client-details">
+                        <h5>Octan Roll</h5>
+                        <small>Actress</small>
+                    </div>
+                </div>
+
+            </figure>
+
+            <figure class="swiper-slide">
+                <figcaption>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sit ad dolorum molestias recusandae
+                    neque voluptas provident temporibus, eos tempore, accusamus eaque?
+                </figcaption>
+                <div class="swiper__client">
+                    <div class="swiper__client-avatar">
+                        <img src="./assets/avatar6.jpg" alt="Client 6">
+                    </div>
+                    <div class="swiper__client-details">
+                        <h5>Alice Cor</h5>
+                        <small>Actress</small>
+                    </div>
+                </div>
+            </figure>
+
+            <figure class="swiper-slide">
+                <figcaption>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sit ad dolorum molestias recusandae
+                    neque voluptas provident temporibus, eos tempore, accusamus eaque?
+                </figcaption>
+                <div class="swiper__client">
+                    <div class="swiper__client-avatar">
+                        <img src="./assets/avatar7.jpg" alt="Client 7">
+                    </div>
+                    <div class="swiper__client-details">
+                        <h5>Adham Abdallah</h5>
+                        <small>Actress</small>
+                    </div>
+                </div>
+            </figure>
+        </div>
+        <!-- Swiper Pagination -->
+        <div class="swiper-pagination"></div>
+    </section>
+    <!-- END TESTIMONIALS SECTION -->
+
+
+    <!-- START CONTACTS SECTION -->
+    <section class="contact" id="contact">
+        <div class="container contact__container">
+            <ul class="contact__list">
+                <li><a href="mailto:ahmad.jehad.2001@hotmail.com" class="contact__list-item" target="_blank">
+                        <i class="uil uil-envelope"></i>
+                    </a></li>
+                <li><a href="https://www.messenger.com" class="contact__list-item" target="_blank">
+                        <i class="uil uil-facebook-messenger"></i>
+                    </a></li>
+                <li><a href="https://wa.me/+972599727546" class="contact__list-item" target="_blank">
+                        <i class="uil uil-whatsapp"></i>
+                    </a></li>
+                <li><a href="tel:+972599727546" class="contact__list-item" target="_blank">
+                        <i class="uil uil-phone"></i>
+                    </a></li>
+            </ul>
+
+            <form action="" class="contact__form" data-aos="fade-up" data-aos-delay="500">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+                <textarea name="message" rows="7" placeholder="Message"></textarea>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- END CONTACTS SECTION -->
+
+
+    <!-- START FOOTER SECTION -->
+    <footer>
+        <div class="container footer__container">
+            <ul class="footer__menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <ul class="footer__socials">
+                <li><a href="https://twitter.com/" target="_blank"><i class="uil uil-twitter-alt"></i></a></li>
+                <li><a href="https://github.com/" target="_blank"><i class="uil uil-github-alt"></i></a></li>
+                <li><a href="https://linkedin.com/" target="_blank"><i class="uil uil-linkedin-alt"></i></a></li>
+                <li><a href="https://dribbble.com/" target="_blank"><i class="uil uil-dribbble"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer__copyright">
+            <small>2023 AhmadJehad &copy; All Rights Reserved.</small>
+        </div>
+    </footer>
+    <!-- END FOOTER SECTION -->
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- MixItUp JS -->
+    <script src="./mixitup/dist/mixitup.min.js"></script>
+    <!-- Animate On Scroll -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1500,
+        offset: 80,
+      });
+    </script>
+    <script src="./data.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
